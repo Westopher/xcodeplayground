@@ -23,3 +23,9 @@ if message1 == message2 {
 let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 300, height: 50))
 messageLabel.text = message1
 messageLabel
+
+messageLabel.backgroundColor = UIColor.orange
+messageLabel.textAlignment = NSTextAlignment.center
+messageLabel.layer.cornerRadius = 25.0
+messageLabel.clipsToBounds = true
+messageLabel
